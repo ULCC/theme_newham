@@ -1,32 +1,33 @@
 <?php
-/*****************************************************************************************************************************************/
-/*    ____ ___  _     _        _    ____   ____ ___  
-/*   / ___/ _ \| |   | |      / \  | __ ) / ___/ _ \ 
-/*  | |  | | | | |   | |     / _ \ |  _ \| |  | | | |
-/*  | |__| |_| | |___| |___ / ___ \| |_) | |__| |_| |
-/*   \____\___/|_____|_____/_/   \_\____/ \____\___/ 
-/* 
-/*****************************************************************************************************************************************/
-/*  Author:			Collabco Software (Oli Newsham)
-/*  Support:		support@collabco.co.uk
-/*  Website:		Collabco.co.uk
-/*  Twitter:		@collabco
-/*****************************************************************************************************************************************/
-/*
-/*  This source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-/*
-/*  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT 
-/*  NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL 
-/*  THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
-/*  (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
-/*  HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
-/*  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-/*
-/*****************************************************************************************************************************************/
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-$plugin->version  = 2015050500;  
-$plugin->component = 'local_collabcows';
-$plugin->requires = 2013111800; //2.6
-$plugin->cron     = 0;
-$plugin->release = '1.2 (Build: ' . $plugin->version . ')';
-$plugin->maturity = MATURITY_STABLE;
+/**
+ * Theme More version file.
+ *
+ * @package    theme_more
+ * @copyright  2014 Frédéric Massart
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die;
+
+
+$plugin->version  = 2015122500;  
+$plugin->maturity = MATURITY_STABLE; // this version's maturity level.
+$plugin->component = 'theme_newham';
+$plugin->release = 'Moodle 3.0.1 (Build: 20151221)';
+$plugin->requires = 2013110500;
+
